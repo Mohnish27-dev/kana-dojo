@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file provides comprehensive guidance to AI coding assistants (GitHub Copilot, Claude, Kiro, Cursor, and other AI models) when working with the KanaDojo codebase. Follow these guidelines to effectively understand the structure, conventions, and purpose of each directory and function within the repository.
 

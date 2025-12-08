@@ -94,13 +94,13 @@ export default function TimedChallenge<T>({ config }: TimedChallengeProps<T>) {
     stats
   } = config;
 
-  // Game mode state - load from localStorage
+  // Game mode state - load from localStorage (default to Pick)
   const [gameMode, setGameMode] = useState<BlitzGameMode>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem(`${localStorageKey}_gameMode`);
-      return (saved as BlitzGameMode) || 'Type';
+      return (saved as BlitzGameMode) || 'Pick';
     }
-    return 'Type';
+    return 'Pick';
   });
 
   // Save game mode to localStorage
