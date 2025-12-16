@@ -439,7 +439,7 @@ const AchievementProgress = () => {
                     'font-medium',
                     isSelected
                       ? 'bg-[var(--main-color)] text-[var(--background-color)] border-b-6 border-[var(--main-color-accent)]'
-                      : 'bg-[var(--card-color)] text-[var(--main-color)] border-b-6 border-[var(--card-color)] hover:border-[var(--border-color)]/50 hover:bg-[var(--border-color)]/50'
+                      : 'bg-[var(--secondary-color)] text-[var(--background-color)] border-b-6 border-[var(--secondary-color-accent)]'
                   )}
                 >
                   <CategoryIcon size={18} />
