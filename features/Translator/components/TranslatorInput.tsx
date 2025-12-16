@@ -130,6 +130,7 @@ export default function TranslatorInput({
             onClick={handleClear}
             disabled={isDisabled}
             colorScheme='secondary'
+            borderColorScheme='secondary'
             borderRadius='lg'
             borderBottomThickness={6}
             className={cn(

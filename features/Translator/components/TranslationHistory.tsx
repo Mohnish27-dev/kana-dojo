@@ -116,6 +116,7 @@ export default function TranslationHistory({
           <AlertDialogTrigger asChild>
             <ActionButton
               colorScheme='secondary'
+              borderColorScheme='secondary'
               borderRadius='lg'
               borderBottomThickness={6}
               className='!w-auto px-4'
@@ -142,6 +143,7 @@ export default function TranslationHistory({
             <AlertDialogFooter className='gap-3 flex-row'>
               <ActionButton
                 colorScheme='main'
+                borderColorScheme='main'
                 borderRadius='lg'
                 borderBottomThickness={6}
                 className='!w-auto px-6'
@@ -151,6 +153,7 @@ export default function TranslationHistory({
               </ActionButton>
               <ActionButton
                 colorScheme='secondary'
+                borderColorScheme='secondary'
                 borderRadius='lg'
                 borderBottomThickness={6}
                 className='!w-auto px-6'
@@ -218,6 +221,7 @@ export default function TranslationHistory({
             {/* Delete button */}
             <ActionButton
               colorScheme='secondary'
+              borderColorScheme='secondary'
               borderRadius='lg'
               borderBottomThickness={6}
               className={cn(
