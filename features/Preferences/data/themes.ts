@@ -816,7 +816,25 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(21.5% 0.041 230.0 / 1)',  // airy night slate
         mainColor: 'oklch(94.0% 0.240 194.0 / 1)',        // celestial turquoise
         secondaryColor: 'oklch(92.5% 0.153 284.0 / 1)',   // dreamlike pale periwinkle
-},
+      },
+      {
+        id: 'hoshishio',
+        backgroundColor: 'oklch(22.0% 0.038 300.0 / 1)',  // cosmic twilight
+        mainColor: 'oklch(93.0% 0.220 163.0 / 1)',        // stardust seafoam (minty green)
+        secondaryColor: 'oklch(91.0% 0.183 308.0 / 1)',   // bright lavender
+      },
+      {
+        id: 'yumemizu',
+        backgroundColor: 'oklch(20.5% 0.042 220.0 / 1)',  // deep dreamwater blue
+        mainColor: 'oklch(92.0% 0.246 170.0 / 1)',        // nebula teal-mint
+        secondaryColor: 'oklch(90.0% 0.176 338.0 / 1)',   // magical pale magenta
+      },
+      {
+        id: 'hisui',
+        backgroundColor: 'oklch(10.8% 0.018 258.0 / 1)', // meteor graphite
+        mainColor: 'oklch(86.0% 0.193 150.0 / 1)',         // cosmic jade green
+        secondaryColor: 'oklch(88.5% 0.218 55.0 / 1)'      // nova tangerine
+      }
     ]
   },
   {
