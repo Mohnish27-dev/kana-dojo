@@ -240,7 +240,7 @@ const baseThemeSets: BaseThemeGroup[] = [
     name: 'Dark',
     icon: Moon,
     themes: [
-      
+
       {
         id: 'kuromizu',
         backgroundColor: 'oklch(10.6% 0.034 248.0 / 1)',
@@ -249,8 +249,8 @@ const baseThemeSets: BaseThemeGroup[] = [
       },
       {
         id: 'midoriha',
-        backgroundColor: 'oklch(25.0% 0.046 137.2 / 1)',  
-        mainColor: 'oklch(89.5% 0.232 178.0 / 1)',       
+        backgroundColor: 'oklch(25.0% 0.046 137.2 / 1)',
+        mainColor: 'oklch(89.5% 0.232 178.0 / 1)',
         secondaryColor: 'oklch(88.5% 0.195 36.0 / 1)'
       },
       {
@@ -279,9 +279,9 @@ const baseThemeSets: BaseThemeGroup[] = [
       },
       {
         id: 'hikaribina',
-        backgroundColor: 'oklch(28.5% 0.066 72.0 / 1)', 
-        mainColor: 'oklch(91.0% 0.220 352.0 / 1)',       
-        secondaryColor: 'oklch(93.0% 0.242 196.0 / 1)'   
+        backgroundColor: 'oklch(28.5% 0.066 72.0 / 1)',
+        mainColor: 'oklch(91.0% 0.220 352.0 / 1)',
+        secondaryColor: 'oklch(93.0% 0.242 196.0 / 1)'
       },
       {
         id: 'aizome',
@@ -834,7 +834,19 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(10.8% 0.018 258.0 / 1)', // meteor graphite
         mainColor: 'oklch(86.0% 0.193 150.0 / 1)',         // cosmic jade green
         secondaryColor: 'oklch(88.5% 0.218 55.0 / 1)'      // nova tangerine
-      }
+      },
+      {
+        id: 'ichigoha',
+        backgroundColor: 'oklch(22.3% 0.048 142.7 / 1)',  // mossy green night
+        mainColor: 'oklch(94.0% 0.266 125.5 / 1)',        // radiant lime-leaf
+        secondaryColor: 'oklch(91.5% 0.184 10.0 / 1)',    // blush pink strawberry skin
+      },
+      {
+        id: 'kumonasu',
+        backgroundColor: 'oklch(19.0% 0.043 302.0 / 1)',   // rich eggplant moon
+        mainColor: 'oklch(93.0% 0.165 265.0 / 1)',         // cloud-purple
+        secondaryColor: 'oklch(92.0% 0.140 200.0 / 1)',    // ethereal soft cyan
+      },
     ]
   },
   {
