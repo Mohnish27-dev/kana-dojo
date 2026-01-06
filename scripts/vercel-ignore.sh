@@ -5,19 +5,28 @@
 # Exit 1 = Proceed with build
 
 # Get list of changed files
-CHANGED_FILES=$(git diff HEAD^ HEAD --name-only)
+if [ -n "$VERCEL_GIT_PREVIOUS_SHA" ] && [ -n "$VERCEL_GIT_COMMIT_SHA" ]; then
+  CHANGED_FILES=$(git diff "$VERCEL_GIT_PREVIOUS_SHA" "$VERCEL_GIT_COMMIT_SHA" --name-only)
+else
+  CHANGED_FILES=$(git diff HEAD^ HEAD --name-only)
+fi
 
 # Patterns to ignore (won't trigger a build)
 IGNORE_PATTERNS=(
-  "\.md$"
+  "\.[mM][dD]([xX])?$"
   "^docs/"
   "^scripts/"
   "^\.agent/"
   "^\.claude/"
   "^\.kiro/"
   "^\.vscode/"
+  "^\.idea/"
   "^\.github/"
   "^\.husky/"
+  "^\.editorconfig$"
+  "^\.gitattributes$"
+  "^\.gitignore$"
+  "^\.npmrc$"
   "^\.prettierrc$"
   "^\.prettierignore$"
   "^\.claudeignore$"

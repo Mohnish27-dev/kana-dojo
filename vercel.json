@@ -3,6 +3,7 @@
   "framework": "nextjs",
   "regions": ["iad1"],
   "buildCommand": "npm run clean:all && npm run build",
+  "ignoreCommand": "bash scripts/vercel-ignore.sh",
   "functions": {
     "app/api/**/*.ts": {
       "maxDuration": 10

@@ -240,7 +240,6 @@ const baseThemeSets: BaseThemeGroup[] = [
     name: 'Dark',
     icon: Moon,
     themes: [
-
       {
         id: 'kuromizu',
         backgroundColor: 'oklch(10.6% 0.034 248.0 / 1)',
@@ -789,64 +788,70 @@ const baseThemeSets: BaseThemeGroup[] = [
       },
       {
         id: 'runousei',
-        backgroundColor: 'oklch(6.5% 0.027 256.5 / 1)', // graphite obsidian
-        mainColor: 'oklch(84.0% 0.190 145.0 / 1)', // starstream viridian
-        secondaryColor: 'oklch(82.0% 0.213 52.0 / 1)' // nova eruption orange
+        backgroundColor: 'oklch(6.5% 0.027 256.5 / 1)',
+        mainColor: 'oklch(84.0% 0.190 145.0 / 1)',
+        secondaryColor: 'oklch(82.0% 0.213 52.0 / 1)'
       },
       {
         id: 'sangosabi',
-        backgroundColor: 'oklch(21.0% 0.032 260.0 / 1)',  // moonlit slate, soft and not too dark
-        mainColor: 'oklch(88.7% 0.216 145.0 / 1)',        // wasabi green: vivid but not harsh
-        secondaryColor: 'oklch(90.0% 0.230 39.0 / 1)',    // coral gold: radiant, lively coral-gold
+        backgroundColor: 'oklch(21.0% 0.032 260.0 / 1)',
+        mainColor: 'oklch(88.7% 0.216 145.0 / 1)',
+        secondaryColor: 'oklch(90.0% 0.230 39.0 / 1)'
       },
       {
         id: 'kureshio',
-        backgroundColor: 'oklch(23.0% 0.046 298.2 / 1)',  // midnight lavender, gentle and accessible
-        mainColor: 'oklch(91.0% 0.210 225.5 / 1)',        // surf blue: luminescent ocean blue
-        secondaryColor: 'oklch(90.0% 0.219 60.0 / 1)',    // apricot: soft, energetic orange-yellow
+        backgroundColor: 'oklch(23.0% 0.046 298.2 / 1)',
+        mainColor: 'oklch(91.0% 0.210 225.5 / 1)',
+        secondaryColor: 'oklch(90.0% 0.219 60.0 / 1)'
       },
       {
         id: 'nirinsou',
         backgroundColor: 'oklch(23.5% 0.039 285.0 / 1)',  // starlit indigo-violet
         mainColor: 'oklch(91.0% 0.235 143.0 / 1)',        // wildflower lime (yellow-green)
-        secondaryColor: 'oklch(93.0% 0.198 60.0 / 1)',    // dusk apricot (pastel orange)
+        secondaryColor: 'oklch(93.0% 0.198 60.0 / 1)'     // dusk apricot (pastel orange)
       },
       {
         id: 'aosora',
         backgroundColor: 'oklch(21.5% 0.041 230.0 / 1)',  // airy night slate
         mainColor: 'oklch(94.0% 0.240 194.0 / 1)',        // celestial turquoise
-        secondaryColor: 'oklch(92.5% 0.153 284.0 / 1)',   // dreamlike pale periwinkle
+        secondaryColor: 'oklch(92.5% 0.153 284.0 / 1)'    // dreamlike pale periwinkle
       },
       {
         id: 'hoshishio',
         backgroundColor: 'oklch(22.0% 0.038 300.0 / 1)',  // cosmic twilight
         mainColor: 'oklch(93.0% 0.220 163.0 / 1)',        // stardust seafoam (minty green)
-        secondaryColor: 'oklch(91.0% 0.183 308.0 / 1)',   // bright lavender
+        secondaryColor: 'oklch(91.0% 0.183 308.0 / 1)'    // bright lavender
       },
       {
         id: 'yumemizu',
         backgroundColor: 'oklch(20.5% 0.042 220.0 / 1)',  // deep dreamwater blue
         mainColor: 'oklch(92.0% 0.246 170.0 / 1)',        // nebula teal-mint
-        secondaryColor: 'oklch(90.0% 0.176 338.0 / 1)',   // magical pale magenta
+        secondaryColor: 'oklch(90.0% 0.176 338.0 / 1)'    // magical pale magenta
       },
       {
         id: 'hisui',
-        backgroundColor: 'oklch(10.8% 0.018 258.0 / 1)', // meteor graphite
-        mainColor: 'oklch(86.0% 0.193 150.0 / 1)',         // cosmic jade green
-        secondaryColor: 'oklch(88.5% 0.218 55.0 / 1)'      // nova tangerine
+        backgroundColor: 'oklch(10.8% 0.018 258.0 / 1)',  // meteor graphite
+        mainColor: 'oklch(86.0% 0.193 150.0 / 1)',        // cosmic jade green
+        secondaryColor: 'oklch(88.5% 0.218 55.0 / 1)'     // nova tangerine
       },
       {
         id: 'ichigoha',
         backgroundColor: 'oklch(22.3% 0.048 142.7 / 1)',  // mossy green night
         mainColor: 'oklch(94.0% 0.266 125.5 / 1)',        // radiant lime-leaf
-        secondaryColor: 'oklch(91.5% 0.184 10.0 / 1)',    // blush pink strawberry skin
+        secondaryColor: 'oklch(91.5% 0.184 10.0 / 1)'     // blush pink strawberry skin
       },
       {
         id: 'kumonasu',
-        backgroundColor: 'oklch(19.0% 0.043 302.0 / 1)',   // rich eggplant moon
-        mainColor: 'oklch(93.0% 0.165 265.0 / 1)',         // cloud-purple
-        secondaryColor: 'oklch(92.0% 0.140 200.0 / 1)',    // ethereal soft cyan
+        backgroundColor: 'oklch(19.0% 0.043 302.0 / 1)',  // rich eggplant moon
+        mainColor: 'oklch(93.0% 0.165 265.0 / 1)',        // cloud-purple
+        secondaryColor: 'oklch(92.0% 0.140 200.0 / 1)'    // ethereal soft cyan
       },
+      {
+        id: 'shirafuji',
+        backgroundColor: 'oklch(18.5% 0.042 306.0 / 1)',  // pale wisteria night
+        mainColor: 'oklch(96.0% 0.125 290.0 / 1)',        // soft lavender white
+        secondaryColor: 'oklch(98.0% 0.118 111.0 / 1)'    // gentle cream
+      }
     ]
   },
   {
