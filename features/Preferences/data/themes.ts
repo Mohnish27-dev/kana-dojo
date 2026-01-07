@@ -215,9 +215,16 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(22.67% 0.0000 89.88 / 1)',
         mainColor: 'oklch(100.00% 0.0000 89.88 / 1)',
         secondaryColor: 'oklch(80.54% 0.0000 89.88 / 1)'
+      },
+      {
+        id: 'yumemizu',
+        backgroundColor: 'oklch(20.5% 0.012 288.7 / 1)',
+        mainColor: 'oklch(90.4% 0.216 274.7 / 1)',
+        secondaryColor: 'oklch(92.6% 0.173 338.0 / 1)'
       }
     ]
   },
+
   {
     name: 'Light',
     icon: Sun,
@@ -240,6 +247,24 @@ const baseThemeSets: BaseThemeGroup[] = [
     name: 'Dark',
     icon: Moon,
     themes: [
+      {
+        id: 'taikan',
+        backgroundColor: 'oklch(21.2% 0.039 255.0 / 1)',    // cosmic graphite
+        mainColor: 'oklch(93.5% 0.235 122.0 / 1)',           // radiant yellow-green
+        secondaryColor: 'oklch(79.5% 0.205 28.0 / 1)',       // deep coral
+      },
+      {
+        id: 'yuyake',
+        backgroundColor: 'oklch(25.0% 0.058 340.0 / 1)',    // dusk mauve
+        mainColor: 'oklch(90.0% 0.225 55.0 / 1)',           // tangerine orange
+        secondaryColor: 'oklch(78.0% 0.130 250.0 / 1)',     // cerulean blue
+      },
+      {
+        id: 'kumonasu',
+        backgroundColor: 'oklch(19.0% 0.043 302.0 / 1)',
+        mainColor: 'oklch(93.0% 0.165 265.0 / 1)',
+        secondaryColor: 'oklch(92.0% 0.140 200.0 / 1)'
+      },
       {
         id: 'kuromizu',
         backgroundColor: 'oklch(10.6% 0.034 248.0 / 1)',
