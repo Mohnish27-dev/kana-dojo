@@ -23,7 +23,7 @@ export type {
 } from './facade';
 
 // Components (page-level)
-export { default as ProgressWithSidebar } from './components/ProgressWithSidebar';
+export { default as ProgressTabs } from './components/ProgressTabs';
 export { default as SimpleProgress } from './components/SimpleProgress';
 
 // Stats Components (new revamped stats page)

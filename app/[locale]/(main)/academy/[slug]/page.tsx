@@ -15,8 +15,6 @@ import {
 import { StructuredData } from '@/shared/components/SEO/StructuredData';
 import { routing, type Locale as _Locale } from '@/core/i18n/routing';
 import type { Locale as BlogLocale } from '@/features/Blog';
-import Sidebar from '@/shared/components/Menu/Sidebar';
-import Banner from '@/shared/components/Menu/Banner';
 
 interface AcademyPostPageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -235,17 +233,10 @@ export default async function AcademyPostPage({
       <StructuredData data={articleSchema} />
       <StructuredData data={breadcrumbSchema} />
 
-      {/* Blog Post Content with Sidebar */}
-      <div className='flex min-h-[100dvh] max-w-[100dvw] gap-0 lg:pr-20'>
-        <Sidebar />
-        <div className='flex w-full flex-col gap-4 px-4 pb-20 md:px-8 lg:w-4/5'>
-          <Banner />
-          <BlogPostComponent post={post} relatedPosts={relatedPostsMeta}>
-            {/* Render MDX content with custom components */}
-            <MDXRemote source={post.content} components={components} />
-          </BlogPostComponent>
-        </div>
-      </div>
+      <BlogPostComponent post={post} relatedPosts={relatedPostsMeta}>
+        {/* Render MDX content with custom components */}
+        <MDXRemote source={post.content} components={components} />
+      </BlogPostComponent>
     </>
   );
 }

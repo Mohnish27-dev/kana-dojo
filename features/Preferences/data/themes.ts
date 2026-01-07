@@ -215,12 +215,6 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(22.67% 0.0000 89.88 / 1)',
         mainColor: 'oklch(100.00% 0.0000 89.88 / 1)',
         secondaryColor: 'oklch(80.54% 0.0000 89.88 / 1)'
-      },
-      {
-        id: 'yumemizu',
-        backgroundColor: 'oklch(20.5% 0.012 288.7 / 1)',
-        mainColor: 'oklch(90.4% 0.216 274.7 / 1)',
-        secondaryColor: 'oklch(92.6% 0.173 338.0 / 1)'
       }
     ]
   },
@@ -249,15 +243,21 @@ const baseThemeSets: BaseThemeGroup[] = [
     themes: [
       {
         id: 'taikan',
-        backgroundColor: 'oklch(21.2% 0.039 255.0 / 1)',    // cosmic graphite
-        mainColor: 'oklch(93.5% 0.235 122.0 / 1)',           // radiant yellow-green
-        secondaryColor: 'oklch(79.5% 0.205 28.0 / 1)',       // deep coral
+        backgroundColor: 'oklch(21.2% 0.039 255.0 / 1)', // cosmic graphite
+        mainColor: 'oklch(93.5% 0.235 122.0 / 1)', // radiant yellow-green
+        secondaryColor: 'oklch(79.5% 0.205 28.0 / 1)' // deep coral
       },
       {
         id: 'yuyake',
-        backgroundColor: 'oklch(25.0% 0.058 340.0 / 1)',    // dusk mauve
-        mainColor: 'oklch(90.0% 0.225 55.0 / 1)',           // tangerine orange
-        secondaryColor: 'oklch(78.0% 0.130 250.0 / 1)',     // cerulean blue
+        backgroundColor: 'oklch(25.0% 0.058 340.0 / 1)', // dusk mauve
+        mainColor: 'oklch(90.0% 0.225 55.0 / 1)', // tangerine orange
+        secondaryColor: 'oklch(78.0% 0.130 250.0 / 1)' // cerulean blue
+      },
+      {
+        id: 'yumemizu',
+        backgroundColor: 'oklch(20.5% 0.012 288.7 / 1)',
+        mainColor: 'oklch(90.4% 0.216 274.7 / 1)',
+        secondaryColor: 'oklch(92.6% 0.173 338.0 / 1)'
       },
       {
         id: 'kumonasu',
@@ -270,12 +270,6 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(10.6% 0.034 248.0 / 1)',
         mainColor: 'oklch(74.8% 0.182 305.5 / 1)',
         secondaryColor: 'oklch(82.5% 0.132 187.0 / 1)'
-      },
-      {
-        id: 'midoriha',
-        backgroundColor: 'oklch(25.0% 0.046 137.2 / 1)',
-        mainColor: 'oklch(89.5% 0.232 178.0 / 1)',
-        secondaryColor: 'oklch(88.5% 0.195 36.0 / 1)'
       },
       {
         id: 'monkeytype',
@@ -300,12 +294,6 @@ const baseThemeSets: BaseThemeGroup[] = [
         backgroundColor: 'oklch(21.71% 0.0239 258.33 / 1)',
         mainColor: 'oklch(80.65% 0.0930 227.43 / 1)',
         secondaryColor: 'oklch(87.28% 0.1705 94.99 / 1)'
-      },
-      {
-        id: 'hikaribina',
-        backgroundColor: 'oklch(28.5% 0.066 72.0 / 1)',
-        mainColor: 'oklch(91.0% 0.220 352.0 / 1)',
-        secondaryColor: 'oklch(93.0% 0.242 196.0 / 1)'
       },
       {
         id: 'aizome',
@@ -584,12 +572,6 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(71.36% 0.1484 265.31 / 1)'
       },
       {
-        id: 'yugenzakura',
-        backgroundColor: 'oklch(22.5% 0.053 320.0 / 1)',
-        mainColor: 'oklch(88.0% 0.198 135.0 / 1)',
-        secondaryColor: 'oklch(90.5% 0.205 220.0 / 1)'
-      },
-      {
         id: 'fathom-frost',
         backgroundColor: 'oklch(22.55% 0.0320 232.35 / 1)',
         mainColor: 'oklch(83.21% 0.2489 143.51 / 1)',
@@ -812,12 +794,6 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(92.0% 0.223 311.0 / 1)'
       },
       {
-        id: 'runousei',
-        backgroundColor: 'oklch(6.5% 0.027 256.5 / 1)',
-        mainColor: 'oklch(84.0% 0.190 145.0 / 1)',
-        secondaryColor: 'oklch(82.0% 0.213 52.0 / 1)'
-      },
-      {
         id: 'sangosabi',
         backgroundColor: 'oklch(21.0% 0.032 260.0 / 1)',
         mainColor: 'oklch(88.7% 0.216 145.0 / 1)',
@@ -895,6 +871,23 @@ const baseThemeSets: BaseThemeGroup[] = [
         mainColor: 'oklch(96.0% 0.225 140.0 / 1)',          // luminous mint
         secondaryColor: 'oklch(92.0% 0.132 116.0 / 1)',     // pale pastel chartreuse
       },
+        id: 'morion',
+        backgroundColor: 'oklch(20.0% 0.054 255.0 / 1)',
+        mainColor: 'oklch(92.5% 0.190 130.0 / 1)',
+        secondaryColor: 'oklch(84.0% 0.140 85.0 / 1)'
+      },
+      {
+        id: 'hoshikuzu',
+        backgroundColor: 'oklch(17.7% 0.044 280.0 / 1)',
+        mainColor: 'oklch(97.0% 0.210 90.0 / 1)',
+        secondaryColor: 'oklch(92.0% 0.224 200.0 / 1)'
+      },
+      {
+        id: 'shinsei',
+        backgroundColor: 'oklch(18.0% 0.046 247.0 / 1)',
+        mainColor: 'oklch(92.0% 0.252 210.0 / 1)',
+        secondaryColor: 'oklch(93.0% 0.146 338.0 / 1)'
+      }
     ]
   },
   {

@@ -6,7 +6,6 @@ import StreakProgress from './StreakProgress';
 import AchievementProgress from '@/features/Achievements/components';
 import { TrendingUp, Flame, Trophy } from 'lucide-react';
 import { useClick } from '@/shared/hooks/useAudio';
-import SidebarLayout from '@/shared/components/layout/SidebarLayout';
 import { cn } from '@/shared/lib/utils';
 
 type ViewType = 'statistics' | 'streak' | 'achievements';
@@ -30,12 +29,12 @@ const viewOptions: { value: ViewType; label: string; icon: React.ReactNode }[] =
     }
   ];
 
-const ProgressWithSidebar = () => {
+const ProgressTabs = () => {
   const { playClick } = useClick();
   const [currentView, setCurrentView] = useState<ViewType>('statistics');
 
   return (
-    <SidebarLayout>
+    <div className='flex flex-col gap-8'>
       {/* View Toggle Switch with smooth sliding animation */}
       <div className='flex justify-center px-2'>
         <div
@@ -80,11 +79,13 @@ const ProgressWithSidebar = () => {
           })}
         </div>
       </div>
-      {currentView === 'statistics' && <SimpleProgress />}
-      {currentView === 'streak' && <StreakProgress />}
-      {currentView === 'achievements' && <AchievementProgress />}
-    </SidebarLayout>
+      <div className='w-full'>
+        {currentView === 'statistics' && <SimpleProgress />}
+        {currentView === 'streak' && <StreakProgress />}
+        {currentView === 'achievements' && <AchievementProgress />}
+      </div>
+    </div>
   );
 };
 
-export default ProgressWithSidebar;
+export default ProgressTabs;

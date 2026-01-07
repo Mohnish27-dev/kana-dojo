@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getBlogPosts, BlogList } from '@/features/Blog';
 import { routing, type Locale } from '@/core/i18n/routing';
-import SidebarLayout from '@/shared/components/layout/SidebarLayout';
 import { generatePageMetadata } from '@/core/i18n/metadata-helpers';
 
 export function generateStaticParams() {
@@ -21,7 +20,7 @@ export default async function AcademyPage({ params }: AcademyPageProps) {
   const posts = getBlogPosts(locale as Locale);
 
   return (
-    <SidebarLayout>
+    <>
       <header className='mb-8'>
         <h1 className='mb-4 text-3xl font-bold text-[var(--main-color)] md:text-4xl'>
           Academy
@@ -32,6 +31,6 @@ export default async function AcademyPage({ params }: AcademyPageProps) {
         </p>
       </header>
       <BlogList posts={posts} showFilter={true} />
-    </SidebarLayout>
+    </>
   );
 }

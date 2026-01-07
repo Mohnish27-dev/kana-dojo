@@ -11,7 +11,7 @@ import SelectionStatusBar from '@/shared/components/Menu/SelectionStatusBar';
 import { ActionButton } from '@/shared/components/ui/ActionButton';
 import { MousePointer } from 'lucide-react';
 import { useClick } from '@/shared/hooks/useAudio';
-import SidebarLayout from '@/shared/components/layout/SidebarLayout';
+
 import { cn } from '@/shared/lib/utils';
 
 const DojoMenu = () => {
@@ -22,7 +22,7 @@ const DojoMenu = () => {
   const { allGroups: kana } = useKanaContent();
 
   return (
-    <SidebarLayout>
+    <>
       {pathWithoutLocale === '/kana' ? (
         <div className='flex flex-col gap-3'>
           <Info />
@@ -60,7 +60,7 @@ const DojoMenu = () => {
         </div>
       ) : null}
       <TrainingActionBar currentDojo={pathWithoutLocale.slice(1)} />
-    </SidebarLayout>
+    </>
   );
 };
 
