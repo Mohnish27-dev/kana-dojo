@@ -919,6 +919,12 @@ const baseThemeSets: BaseThemeGroup[] = [
         mainColor: 'oklch(82.0% 0.214 30.0 / 1)',           // maple red-orange
         secondaryColor: 'oklch(85.0% 0.180 70.0 / 1)',      // persimmon gold
       },
+      {
+        id: 'kumo-no-asa',
+        backgroundColor: 'oklch(19.2% 0.026 230.0 / 1)',   // mist blue-gray
+        mainColor: 'oklch(95.0% 0.125 260.0 / 1)',          // soft cloud gray
+        secondaryColor: 'oklch(82.0% 0.129 300.0 / 1)',     // early sky lavender
+      },
     ]
   },
   {
